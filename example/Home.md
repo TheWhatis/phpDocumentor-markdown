@@ -33,6 +33,7 @@ This is an automatically generated documentation for **Pizza Place (Example docu
 
 | Interface | Description |
 |-----------|-------------|
+| [`ManyInterfaces`](./classes/PhpDocumentorMarkdown/Example/ManyInterfaces.md) | A ManyInterfaces|
 | [`ProductInterface`](./classes/PhpDocumentorMarkdown/Example/ProductInterface.md) | Interface for a product.|
 
 
@@ -50,4 +51,4 @@ This is an automatically generated documentation for **Pizza Place (Example docu
 
 
 ***
-> Automatically generated on 2022-09-09
+> Automatically generated on 2023-11-14

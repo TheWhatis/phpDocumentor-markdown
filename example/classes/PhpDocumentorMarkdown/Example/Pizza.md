@@ -51,7 +51,7 @@ protected float $price
 Pizza base.
 
 ```php
-protected ?\PhpDocumentorMarkdown\Example\Pizza\Base $base
+protected \PhpDocumentorMarkdown\Example\Pizza\Base|null $base
 ```
 
 
@@ -202,4 +202,4 @@ public getTaxRate(): float
 
 
 ***
-> Automatically generated on 2022-09-09
+> Automatically generated on 2023-11-14

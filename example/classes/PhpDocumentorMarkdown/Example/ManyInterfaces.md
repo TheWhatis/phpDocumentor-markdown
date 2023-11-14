@@ -1,16 +1,18 @@
 ***
 
-# ProductInterface
+# ManyInterfaces
 
-Interface for a product.
-
-
-
-* Full name: `\PhpDocumentorMarkdown\Example\ProductInterface`
+A ManyInterfaces
 
 
 
-## Methods
+* Full name: `\PhpDocumentorMarkdown\Example\ManyInterfaces`
+* Parent interfaces: [`\PhpDocumentorMarkdown\Example\ProductInterface`](./ProductInterface.md), [`JsonSerializable`](../../JsonSerializable.md)
+
+
+
+
+## Inherited methods
 
 
 ### __construct
