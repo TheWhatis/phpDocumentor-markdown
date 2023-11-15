@@ -56,7 +56,7 @@ You can also check out the [config file](./phpdoc.dist.xml) used for generating 
 ## Running tests
 ```bash
 # Clone the repository
-git clone git@github.com:Whatis/phpDocumentor-markdown.git
+git clone git@github.com:TheWhatis/phpDocumentor-markdown.git
 
 # Go to the cloned repository
 cd phpDocumentor-markdown
