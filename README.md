@@ -25,13 +25,13 @@ phpDocumentor --directory=src --target=docs --template=<PATH TO THIS REPOSITORY/
 #### Installation via Composer
 ```bash
 # Require this package. You probably want it as a dev dependency
-composer require --dev saggre/phpdocumentor-markdown
+composer require --dev whatis/phpdocumentor-markdown
 ```
 
 #### Running manually after installing via Composer
 ```bash
 # Run phpDocumentor with --template argument pointed to markdown template inside vendor directory
-phpDocumentor --directory=src --target=docs --template="vendor/saggre/phpdocumentor-markdown/themes/markdown"
+phpDocumentor --directory=src --target=docs --template="vendor/whatis/phpdocumentor-markdown/themes/markdown"
 ```
 
 #### Adding a Composer helper script
@@ -39,7 +39,7 @@ Add this script to your `composer.json` and run `composer create-docs` to genera
 
 ```json
 "scripts": {
-    "create-docs": "phpDocumentor --directory=src --target=docs --template='vendor/saggre/phpdocumentor-markdown/themes/markdown'"
+    "create-docs": "phpDocumentor --directory=src --target=docs --template='vendor/whatis/phpdocumentor-markdown/themes/markdown'"
 },
 ```
 
@@ -48,7 +48,7 @@ Add a template element to your phpDocumentor XML config and run `phpDocumentor` 
 ```xml
 <phpdocumentor>
     <!-- Specify template element inside phpdocumentor -->
-    <template name="./vendor/saggre/phpdocumentor-markdown/themes/markdown"/>
+    <template name="./vendor/whatis/phpdocumentor-markdown/themes/markdown"/>
 </phpdocumentor>
 ```
 You can also check out the [config file](./phpdoc.dist.xml) used for generating this repository's example documentation for a full example.
@@ -56,7 +56,7 @@ You can also check out the [config file](./phpdoc.dist.xml) used for generating 
 ## Running tests
 ```bash
 # Clone the repository
-git clone git@github.com:Saggre/phpDocumentor-markdown.git
+git clone git@github.com:Whatis/phpDocumentor-markdown.git
 
 # Go to the cloned repository
 cd phpDocumentor-markdown
