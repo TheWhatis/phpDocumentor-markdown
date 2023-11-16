@@ -7,7 +7,7 @@
 
 {{ node.summary|raw }}
 
-{{ node.description|raw }}
+{% include 'components/description.md.twig' %}
 
 * Full name: `{{ node.FullyQualifiedStructuralElementName }}`
 {% if node.parent and node.parent is not empty %}* Parent trait: {{ macros.mdClassLink(node.parent, macros.mdClassPath(node), node.parent.FullyQualifiedStructuralElementName) }}

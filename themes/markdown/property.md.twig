@@ -9,7 +9,7 @@
 {{ property.visibility ~ ' ' }}{% if property.static %}{{ 'static' ~ ' ' }}{% endif %}{% if property.type and property.type is not empty %}{{ property.type ~ ' ' }}{% endif %}{{ '$' ~ property.name }}
 ```
 
-{{ property.description | raw }}
+{{ include('components/description.md.twig', {'node': property}) }}
 
 {% if property.static %}* This property is **static**.{% endif %}
 

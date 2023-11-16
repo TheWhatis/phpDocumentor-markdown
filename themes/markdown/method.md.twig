@@ -7,7 +7,7 @@
 {# Method signature #}
 ```php
 {% if method.final %}{{ 'final' ~ ' ' }}{% endif %}{{ method.visibility ~ ' ' }}{%if method.static%}{{ 'static' ~ ' ' }}{% endif %}{{ method.name }}({% for argument in method.arguments %}
-{{- argument.type }} 
+{{- argument.type }}
 {{- argument.byReference ? '&' }} $
 {{- argument.name }}{{ argument.default ? ' = '~argument.default }}
 {%- if not loop.last %}, {% endif %}
@@ -15,7 +15,7 @@
 {{- method.response.type ? ': ' ~ method.response.type }}
 ```
 
-{{ method.description | raw }}
+{{ include('components/description.md.twig', {'node': method}) }}
 
 {% if method.static %}* This method is **static**.{% endif %}
 
@@ -42,7 +42,7 @@
 {% if method.response.description and method.response.description is not empty %}
 **Return Value:**
 
-{{ method.response.description | raw }}
+{{ include('components/description.md.twig', {'node': method.response}) }}
 
 {% endif %}
 
