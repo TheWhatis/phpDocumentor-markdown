@@ -4,8 +4,7 @@
 
 A pizza.
 
-
-
+some description see [\PhpDocumentorMarkdown\Example\Manyinterfaces]()
 * Full name: `\PhpDocumentorMarkdown\Example\Pizza`
 * Parent class: [`\PhpDocumentorMarkdown\Example\AbstractProduct`](./AbstractProduct.md)
 * This class implements:
@@ -54,7 +53,7 @@ Pizza base.
 protected \PhpDocumentorMarkdown\Example\Pizza\Base|null $base
 ```
 
-
+Propberty base description [\PhpDocumentorMarkdown\Example\ManyInterfaces]()
 
 
 
@@ -66,13 +65,13 @@ protected \PhpDocumentorMarkdown\Example\Pizza\Base|null $base
 
 ### __construct
 
-
+Construct title
 
 ```php
 public __construct(string $name, float $price, \PhpDocumentorMarkdown\Example\Pizza\Base|null $base = null): mixed
 ```
 
-
+Construct description [\PhpDocumentorMarkdown\Example\ManyInterfaces]()
 
 
 
@@ -202,4 +201,4 @@ public getTaxRate(): float
 
 
 ***
-> Automatically generated on 2023-11-14
+> Automatically generated on 2023-11-16

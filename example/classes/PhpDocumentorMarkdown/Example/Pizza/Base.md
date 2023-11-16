@@ -5,7 +5,6 @@
 Represents a pizza base.
 
 
-
 * Full name: `\PhpDocumentorMarkdown\Example\Pizza\Base`
 
 
@@ -122,4 +121,4 @@ public getYeast(): int
 
 
 ***
-> Automatically generated on 2023-11-14
+> Automatically generated on 2023-11-16

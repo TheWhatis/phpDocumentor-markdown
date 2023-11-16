@@ -5,8 +5,8 @@
 Interface for a product.
 
 
-
 * Full name: `\PhpDocumentorMarkdown\Example\ProductInterface`
+
 
 
 
@@ -102,4 +102,4 @@ public getTaxRate(): float
 
 
 ***
-> Automatically generated on 2023-11-14
+> Automatically generated on 2023-11-16

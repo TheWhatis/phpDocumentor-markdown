@@ -5,7 +5,6 @@
 Base class for all products.
 
 
-
 * Full name: `\PhpDocumentorMarkdown\Example\AbstractProduct`
 * This class implements:
 [`\PhpDocumentorMarkdown\Example\ProductInterface`](./ProductInterface.md)
@@ -39,4 +38,4 @@ public getTaxRate(): float
 
 
 ***
-> Automatically generated on 2023-11-14
+> Automatically generated on 2023-11-16

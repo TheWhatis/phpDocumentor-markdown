@@ -4,10 +4,10 @@
 
 A ManyInterfaces
 
-
-
+See to [\PhpDocumentorMarkdown\Example\AbstractProduct]()
 * Full name: `\PhpDocumentorMarkdown\Example\ManyInterfaces`
 * Parent interfaces: [`\PhpDocumentorMarkdown\Example\ProductInterface`](./ProductInterface.md), [`JsonSerializable`](../../JsonSerializable.md)
+
 
 
 
@@ -104,4 +104,4 @@ public getTaxRate(): float
 
 
 ***
-> Automatically generated on 2023-11-14
+> Automatically generated on 2023-11-16

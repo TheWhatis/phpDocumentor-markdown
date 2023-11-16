@@ -5,7 +5,6 @@
 Pizza sauce class.
 
 
-
 * Full name: `\PhpDocumentorMarkdown\Example\Pizza\Sauce`
 
 
@@ -74,4 +73,4 @@ public __construct(string $name): mixed
 
 
 ***
-> Automatically generated on 2023-11-14
+> Automatically generated on 2023-11-16

@@ -5,7 +5,6 @@
 A trait for reviewable objects.
 
 
-
 * Full name: `\PhpDocumentorMarkdown\Example\ReviewableTrait`
 
 
@@ -52,5 +51,5 @@ public isReviewed(): bool
 ***
 
 ***
-> Automatically generated on 2023-11-14
+> Automatically generated on 2023-11-16
 
