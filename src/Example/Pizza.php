@@ -7,6 +7,8 @@ use PhpDocumentorMarkdown\Example\Pizza\Base;
 
 /**
  * A pizza.
+ *
+ * some description see {@see Manyinterfaces}
  */
 class Pizza extends AbstractProduct implements ProductInterface, JsonSerializable
 {
@@ -29,11 +31,17 @@ class Pizza extends AbstractProduct implements ProductInterface, JsonSerializabl
     /**
      * Pizza base.
      *
+     * Propberty base description {@see ManyInterfaces}
+     *
      * @var Base|null
      */
     protected ?Base $base;
 
     /**
+     * Construct title
+     *
+     * Construct description {@see ManyInterfaces}
+     *
      * @param  string  $name  Product name.
      * @param  float  $price  Product price.
      * @param  Base|null  $base  Pizza base.
